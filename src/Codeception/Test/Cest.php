@@ -152,6 +152,7 @@ class Cest extends Test implements
 
     public function toString()
     {
+        // TODO : Test Name Output.
         return sprintf('%s: %s', ReflectionHelper::getClassShortName($this->getTestClass()), Message::ucfirst($this->getFeature()));
     }
 
